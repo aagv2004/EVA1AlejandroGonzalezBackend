@@ -16,7 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from eva1app.views import paginaPrincipal
+from eva1app.views import vistaPostre1
+from eva1app.views import vistaPostre2
+from eva1app.views import vistaPostre3
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', paginaPrincipal),
+    path('postre1/', vistaPostre1),
+    path('postre2/', vistaPostre2),
+    path('postre3/', vistaPostre3)
 ]
