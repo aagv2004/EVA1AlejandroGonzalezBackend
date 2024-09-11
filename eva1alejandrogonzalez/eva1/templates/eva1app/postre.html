@@ -3,19 +3,22 @@
 <html>
 <head>
     <title>Document</title>
+    <link rel="stylesheet" href="{% static "css/styles.css" %}">
 </head>
 <body>
     <h1> {{nombrePostre1}} </h1>
     <p>{{descripcionPostre1}}</p>
-    <img src="{% static "images/postre1.jpg" %}"/>
+    <img src="{% static "images/postre1.jpg" %}" class="imagen1"/>
 
     <h1>{{nombrePostre2}}</h1>
     <p>{{descripcionPostre2}}</p>
-    <img src="{% static "images/postre1.jpg" %}"/>
+    <img src="{% static "images/brazoDeReina.jfif" %}" class="imagen2"/>
 
     <h1>{{nombrePostre3}}</h1>
     <p>{{descripcionPostre3}}</p>
-    <img src="{% static "images/postre1.jpg" %}"/>
+    <img src="{% static "images/queQue.jfif" %}" class="imagen3"/>
+
+    <a href="http://127.0.0.1:8000/">Volver al inicio</a>
 
 </body>
 </html>

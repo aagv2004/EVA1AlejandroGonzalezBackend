@@ -1,0 +1,17 @@
+h1, p, a {
+    text-align: center;
+}
+
+
+img {
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 750px;
+    margin-bottom: 20px;
+}
+
+a {
+    position:relative;
+    left: 500px;
+}
